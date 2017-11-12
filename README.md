@@ -16,6 +16,7 @@
 - [Adding emdaer to your project](#adding-emdaer-to-your-project)
 - [Core Plugins](#core-plugins)
 - [Core Transforms](#core-transforms)
+- [AST Parsing](#ast-parsing)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -148,10 +149,18 @@ npm run emdaer
 * **[@emdaer/transform-table-of-contents](packages/transform-table-of-contents)**
   An emdaer transformation that generates a table of contents
 
+## AST Parsing
+
+> 🚧 This feature is experimental and not currently recommended for use in
+> production
+
+Running emdaer with the `--AST` flag enables [some neat experimental
+functionality](https://github.com/emdaer/emdaer/issues/52)
+
 ## Contributing
 
-If you&#8217;d like to make emdaer better, please read our
-[guide to contributing](./CONTRIBUTING.md).
+If you&#8217;d like to make emdaer better, please read our [guide to
+contributing](./CONTRIBUTING.md).
 
 <details>
 <summary><strong>Contributors</strong></summary><br />
